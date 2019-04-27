@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="tests" name="Failed suite [DemoTest]" guice-stage="DEVELOPMENT">
+  <test thread-count="4" parallel="tests" name="Nopackage3(failed)">
+    <parameter name="start" value="6"/>
+    <parameter name="pwd" value="078200"/>
+    <parameter name="username" value="ADDMAX58680143"/>
+    <classes>
+      <class name="SeleniumL2Assignment.MySeleniumAssignment2">
+        <methods>
+          <include name="Addmax" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- SeleniumL2Assignment.MySeleniumAssignment2 -->
+    </classes>
+  </test> <!-- Nopackage3(failed) -->
+  <test thread-count="4" parallel="tests" name="Nopackage6(failed)">
+    <parameter name="start" value="1"/>
+    <parameter name="pwd" value="078200"/>
+    <parameter name="username" value="ADDMAX86098449"/>
+    <classes>
+      <class name="SeleniumL2Assignment.MySeleniumAssignment2">
+        <methods>
+          <include name="Addmax" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- SeleniumL2Assignment.MySeleniumAssignment2 -->
+    </classes>
+  </test> <!-- Nopackage6(failed) -->
+</suite> <!-- Failed suite [DemoTest] -->

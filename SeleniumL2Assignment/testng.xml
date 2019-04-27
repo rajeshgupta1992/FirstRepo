@@ -1,0 +1,111 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="DemoTest" parallel="tests" thread-count="4" preserve-order="true" verbose="1">
+
+	<test name="Nopackage1">
+		<parameter name="username" value="ADDMAX58680143" />
+		<parameter name="pwd" value="078200" />
+		<parameter name="start" value="1" />
+		<classes>
+			<class name="SeleniumL2Assignment.MySeleniumAssignment2" />
+		</classes>
+	</test>
+
+	<test name="Nopackage2">
+		<parameter name="username" value="ADDMAX58680143" />
+		<parameter name="pwd" value="078200" />
+		<parameter name="start" value="3" />
+		<classes>
+			<class name="SeleniumL2Assignment.MySeleniumAssignment2" />
+		</classes>
+	</test>
+
+	<test name="Nopackage3">
+		<parameter name="username" value="ADDMAX58680143" />
+		<parameter name="pwd" value="078200" />
+		<parameter name="start" value="6" />
+		<classes>
+			<class name="SeleniumL2Assignment.MySeleniumAssignment2" />
+		</classes>
+	</test>
+	
+   
+	<test name="Nopackage4">
+		<parameter name="username" value="ADDMAX58680143" />
+		<parameter name="pwd" value="078200" />
+		<parameter name="start" value="2" />
+		<classes>
+			<class name="SeleniumL2Assignment.MySeleniumAssignment2" />
+		</classes>
+	</test>
+
+
+	<test name="Nopackage5">
+		<parameter name="username" value="ADDMAX86098449" />
+		<parameter name="pwd" value="078200" />
+		<parameter name="start" value="4" />
+		<classes>
+			<class name="SeleniumL2Assignment.MySeleniumAssignment2" />
+		</classes>
+	</test>
+	
+	<test name="Nopackage6">
+		<parameter name="username" value="ADDMAX86098449" />
+		<parameter name="pwd" value="078200" />
+		<parameter name="start" value="1" />
+		<classes>
+			<class name="SeleniumL2Assignment.MySeleniumAssignment2" />
+		</classes>
+	</test>
+	
+	
+	<test name="Nopackage7">
+		<parameter name="username" value="ADDMAX16635946" />
+		<parameter name="pwd" value="078200" />
+		<parameter name="start" value="3" />
+		<classes>
+			<class name="SeleniumL2Assignment.MySeleniumAssignment2" />
+		</classes>
+	</test>
+	
+	
+
+	<test name="Nopackage8">
+		<parameter name="username" value="ADDMAX16635946" />
+		<parameter name="pwd" value="078200" />
+		<parameter name="start" value="1" />
+		<classes>
+			<class name="SeleniumL2Assignment.MySeleniumAssignment2" />
+		</classes>
+	</test>
+	
+<!--	 	
+	<test name="Nopackage4">
+		<parameter name="username" value="ADDMAX16635946" />
+		<parameter name="pwd" value="078200" />
+		<parameter name="start" value="2" />
+		<classes>
+			<class name="SeleniumL2Assignment.MySeleniumAssignment2" />
+		</classes>
+	</test>
+
+
+	<test name="Nopackage5">
+		<parameter name="username" value="ADDMAX16635946" />
+		<parameter name="pwd" value="078200" />
+		<parameter name="start" value="3" />
+		<classes>
+			<class name="SeleniumL2Assignment.MySeleniumAssignment2" />
+		</classes>
+	</test>
+	-->
+
+</suite>
+ 
+ 
+ 	<!-- 
+	ADDMAX58680143 Rajesh kumar 
+	ADDMAX86098449 Priya Garg 
+	ADDMAX23021571 Honey Garg 
+	ADDMAX16635946 Rishu Garg 
+	-->
